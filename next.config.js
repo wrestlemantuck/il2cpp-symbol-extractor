@@ -2,7 +2,7 @@
 const nextConfig = {
   api: {
     bodyParser: {
-      sizeLimit: '120mb'
+      sizeLimit: '10mb' // 4.5 MB chunks + headroom
     }
   }
 }
